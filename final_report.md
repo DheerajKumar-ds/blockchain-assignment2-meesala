@@ -1,4 +1,4 @@
-# 📑 Assignment 2 — Analyze Transactions with Hardhat
+# Assignment 2 — Analyze Transactions with Hardhat
 
 ## Part A — Deployment
 - **Contract Address**: 0x0b306bf915c4d645ff596e518faf3f9669b97016  
@@ -10,7 +10,12 @@
 Compiler version: 0.8.24  
 Scripts used: deploy.ts, interact.ts, analyze.ts  
 
-📸 *Screenshot: Deploy output*
+## Code Files
+- [CampusCredit.sol](contracts/CampusCredit.sol)
+- [deploy.ts](scripts/deploy.ts)
+- [interact.ts](scripts/interact.ts)
+- [analyze.ts](scripts/analyze.ts)
+- [hardhat.config.ts](hardhat.config.ts)
 
 ---
 
@@ -83,11 +88,29 @@ Divide by 1e18 = `100 CAMP` (human).
 ---
 
 ## Screenshots
-- Deploy output  
-- Interact output  
-- Analyze output  
-- (Optional) IPFS CID + fetch  
-- (Optional) MetaMask network page  
+
+### Deploy
+![Deploy Screenshot](screenshots/deploy.png)
+
+### Interact
+![Interact Screenshot](screenshots/interact_before.png)
+![Interact Screenshot](screenshots/interact_after.png)
+
+### Analyze
+#### TX1
+![Analyze Screenshot](screenshots/analyze_TX1.png)
+![Analyze Screenshot](screenshots/analyze_TX1after.png)
+
+#### TX2
+![Analyze Screenshot](screenshots/analyze_TX2.png)
+![Analyze Screenshot](screenshots/analyze_TX2after.png)
+
+#### TX3
+![Analyze Screenshot](screenshots/analyze_TX3.png)
+![Analyze Screenshot](screenshots/analyze_TX3after.png)
+
+### IPFS (Optional)
+![IPFS Screenshot](screenshots/ipfs.png)
 
 ---
 
